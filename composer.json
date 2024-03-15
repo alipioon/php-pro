@@ -1,0 +1,23 @@
+{
+    "name": "root/php-pro",
+    "autoload": {
+        "files":[
+            "app/helpers/constantes.php",
+            "app/helpers/functions.php",
+            "app/router/router.php",
+            "app/core/controller.php",
+            "app/database/conexao.php",
+            "app/database/fetch.php"
+        ],
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alipio",
+            "email": "alipiooneto@gmail.com"
+        }
+    ],
+    "require": {}
+}
